@@ -9,16 +9,23 @@
 	<title>Document</title>
 </head>
 <body>
-	<button style="padding: 3px; margin-top: 20px; margin-left: auto; margin-right: auto; display: block;"> Open popup </button>
+	<!-- button for popup testing should be removed before injection -->
+	<button id="open-popup" style="padding: 3px; margin-top: 20px; margin-left: auto; margin-right: auto; display: block;"> Open popup </button>
 
 
 	<div class="popup">
-		<div class="popup__body">
-			<img src="./public/images/pop-mob-2.png" alt="">
-			<h1>БОЛЬШЕ СКИДОК</h1>
-			<p>Акция 1+1 начнет действовать завтра в 10:00, а сейчас вы можете заказать сеты со скидкой!</p>
-			<button>Заказать сеты</button>
+		<div class="popup__border">
+			<div class="popup__body">
+				<img src="./public/images/pop-mob-2.png" alt="">
+				<h1>БОЛЬШЕ СКИДОК</h1>
+				<p>Акция 1+1 начнет действовать завтра в 10:00, <br class="mobile-only"> а сейчас вы можете заказать сеты со скидкой!</p>
+				<button class="order">Заказать сеты</button>
+				<button class="close">
+					<img src="public/icons/close-md-svgrepo-com.svg" alt="">
+				</button>
+			</div>
 		</div>
+		
 	</div>
 
 
