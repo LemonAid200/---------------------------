@@ -1,0 +1,26 @@
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vw;
+	/* display: none; */
+}
+.popup__body {
+	margin: 0	auto;
+	width: 717px;
+}
+
+.popup__body button {
+	background: #efa133;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 36px;
+	padding: 0 19px;
+}
+
+.popup__body h1{
+	color: #bd0017;
+}
