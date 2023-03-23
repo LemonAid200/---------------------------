@@ -77,7 +77,7 @@ body {
 	margin-bottom: 5px;
 }
 
-.mobile-only{
+.popup .mobile-only{
 	display: none;
 }
 
@@ -116,7 +116,7 @@ body {
 		cursor: pointer;
 	}
 
-	.mobile-only{
+	.popup .mobile-only{
 		display: block;
 	}
 }
