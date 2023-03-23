@@ -4,11 +4,27 @@
 	left: 0;
 	width: 100vw;
 	height: 100vw;
+	z-index: 100;
+	background: white;
 	/* display: none; */
 }
 .popup__body {
+	/* 
+	width: 600px;
+	background: red;
+	height: 600px;
+	border: 8px solid #efa133;
+	border-radius: 8px;
+	box-sizing: border-box;
+	 */
+	padding-top: 10px;
 	margin: 0	auto;
-	width: 717px;
+	text-align-last: center;
+	width: 600px;
+	height: 600px;
+	border: 10px solid #efa133;
+  border-radius: 20px;
+  box-sizing: border-box;
 }
 
 .popup__body button {
@@ -19,6 +35,10 @@
 	font-weight: 600;
 	line-height: 36px;
 	padding: 0 19px;
+}
+
+.popup__body img {
+	width: 60%;
 }
 
 .popup__body h1{
